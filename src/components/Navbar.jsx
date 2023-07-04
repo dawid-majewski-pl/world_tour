@@ -23,8 +23,8 @@ const Navbar = () => {
                 <input className='bg-transparent p-2 w-full hover:outline-none' type='text' placeholder='Search tours' />
             </div>
 
-            <button className='bg-gray-200 text-gray-700 hidden md:flex items-center py-2 border-none rounded-full'>
-                <BsFillCartFill size={18} /><p className='pl-2'>Cart</p>
+            <button className='bg-gray-200 text-gray-700 hidden md:flex justify-center py-2 border-none rounded-full w-[120px]'>
+                <BsFillCartFill size={18} /><p className='px-2'>Cart</p>
             </button>
 
             {/* Mobile Nav */}
@@ -38,9 +38,7 @@ const Navbar = () => {
                         <li className='text-xl py-4'>Home</li>
                         <li className='text-xl py-4'>Recommended</li>
                         <li className='text-xl py-4'>Travels</li>
-                        <li className='text-xl py-4'>Favourites</li>
-                        <li className='text-xl py-4'>Wallet</li>
-                        <li className='text-xl py-4'>Contact</li>
+                        <li className='text-xl py-4'>Footer</li>
                     </ul>
                 </nav>
 

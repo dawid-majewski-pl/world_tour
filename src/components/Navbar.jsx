@@ -37,7 +37,7 @@ const Navbar = () => {
                     <ul className='flex flex-col p-4 text-gray-900'>
                         <li className='text-xl py-4'>Home</li>
                         <li className='text-xl py-4'>Recommended</li>
-                        <li className='text-xl py-4'>Top Rated Travels</li>
+                        <li className='text-xl py-4'>Travels</li>
                         <li className='text-xl py-4'>Favourites</li>
                         <li className='text-xl py-4'>Wallet</li>
                         <li className='text-xl py-4'>Contact</li>
